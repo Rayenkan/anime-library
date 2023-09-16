@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: #CAF0F8;
+}
+
+section nav {
+    background-color: #0077B6;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px #0077B6;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    top: 0;
+}
+
+section nav li {
+    padding: 0;
+    display: inline-block;
+}
+
+section nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    
+}
+
+section nav a:hover {
+    color: white;
+    text-shadow: 2px 2px 10px #90E0EF;
+    cursor: pointer;
+}
+
+section .social_icon {
+    margin: 0 , 5px;
+    font-size: 18;
+    cursor: pointer;
+}
+
+section .social_icon:hover {
+    color: white;
+    text-shadow: 2px 2px 10px #90E0EF;
+    
+}
+
+#title {
+    cursor: pointer;
+    font-size: 25px;
+    font-style: bold;
+    transition: transform 0.3s ease-out;
+}
+
+#title:hover {
+    transform: scale(1.1);
+}
+
+section .photos {
+    border: 1px solid black;
+    margin-top: 9vh;
+    height: 200px;
+    display: flex;
+}
+
+section .photos img{
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+
+
+
+section .main {
+    width: 100%;
+    height: auto;
+    top: 20px;
+    background-color: #CAF0F8;
+    display: flex;
+}
+section .main .comment{
+    font-style: oblique;
+    left: 5px;
+    margin-top: 15px;
+    border: transparent;
+    background-color: #0077B6;
+    border-radius: 5px;
+}
+#most{
+    color: #90E0EF;
+    text-decoration: underline;
+}
+.footer {
+    position: fixed;
+    height: 25px;
+    background-color: #0077B6;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.footer span{
+    font-style:bold;
+    position: absolute;
+    left: 2px;
+}
+#contacts{
+    color: #00B4D8;
+    
+}
